@@ -1,0 +1,45 @@
+{
+  "paths": {
+    "landsat_dir": "Data/Landsat",
+    "study_area": "Data/Boundaries/Study_Area.gpkg",
+    "small_areas": "Data/Boundaries/Small_Areas.gpkg",
+    "deprivation_csv": "Data/Deprivation/Deprivation.csv",
+    "schools_file": "Data/Schools/Schools.csv",
+    "outputs": "Outputs"
+  },
+  "raster": {
+    "baseline_pattern": "lst_baseline_scene*.tif",
+    "recent_pattern": "lst_recent_scene*.tif",
+    "baseline_output": "LST_Baseline_Median.tif",
+    "recent_output": "LST_Recent_Median.tif",
+    "difference_output": "LST_Increase.tif",
+    "nodata": -9999.0,
+    "target_crs": "EPSG:27700",
+    "resolution": 30
+  },
+  "classification": {
+    "classes": 5
+  },
+  "moran": {
+    "aggregation_factor": 30,
+    "permutations": 999,
+    "fdr_alpha": 0.05
+  },
+  "small_areas": {
+    "area_code_field": "AREA_CODE",
+    "deprivation_code_field": "AREA_CODE",
+    "deprivation_decile_field": "IMD_DECILE",
+    "hh_threshold_percent": 25,
+    "most_deprived_max_decile": 3,
+    "least_deprived_min_decile": 8
+  },
+  "schools": {
+    "id_field": "SCHOOL_ID",
+    "name_field": "SCHOOL_NAME",
+    "x_field": "LONGITUDE",
+    "y_field": "LATITUDE",
+    "source_crs": "EPSG:4326",
+    "buffer_distance_m": 100,
+    "top_n": 50
+  }
+}

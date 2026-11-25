@@ -1,0 +1,14 @@
+Data/**
+!Data/.gitkeep
+Outputs/**
+!Outputs/.gitkeep
+*.aux.xml
+*.ovr
+*.gpkg-shm
+*.gpkg-wal
+*.tmp
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env

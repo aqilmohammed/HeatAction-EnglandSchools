@@ -1,0 +1,12 @@
+numpy
+pandas
+rasterio
+geopandas
+shapely
+pyproj
+scipy
+libpysal
+esda
+statsmodels
+matplotlib
+rasterstats
