@@ -34,9 +34,9 @@ HeatAction - EnglandSchools/
 
 - Landsat Collection 2 Level-2: [USGS EarthExplorer](https://earthexplorer.usgs.gov/) and [USGS Landsat Collection 2](https://www.usgs.gov/landsat-missions/landsat-collection-2)
 - Administrative and small-area boundaries: [ONS Open Geography Portal](https://geoportal.statistics.gov.uk/)
-- Deprivation statistics: the official government statistics provider for the relevant country and release.
-- School locations: the relevant official education department or school register.
-- Optional land-cover data: the relevant official environmental data provider.
+- Deprivation statistics: [IMD 2025: English Indices of Deprivation 2025](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025/)
+- School locations: [Get Information About Schools](https://get-information-schools.service.gov.uk/)
+
 
 Check release dates, licensing, metadata, field definitions and coverage before using any dataset. The scripts do not download source data.
 
